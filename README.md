@@ -1,32 +1,44 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
-
 # Flash Chat ⚡️
 
-## Our Goal
+A new flutter application
 
-The objective of this tutorial is to learn how to incorporate Firebase into our Flutter apps. We'll be using Firebase Cloud Firestore as well as the Firebase authentication package to equip our app with a cloud-based NoSQL database and secure authentication methods. 
+## What I tried to create
 
-
-## What you will create
-
-We’re going to build a modern messaging app where users can sign up and log in to chat.
+A modern messaging app where users can sign up and log in to chat.
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/flash_chat_flutter_demo.gif)
 
-## What you will learn
+## Getting Started
+* Install dependencies
+```sh
+    $ flutter pub get
+```
 
-- How to incorporate Firebase into your Flutter projects.
-- How to use Firebase authentication to register and sign in users.
-- How to create beautiful animations using the Flutter Hero widget.
-- How to create custom aniamtions using Flutter's animation controller. 
-- Learn all about mixins and how they differ from superclasses.
-- Learn about Streams and how they work.
-- Learn to use ListViews to build scrolling views.
-- How to use Firebase Cloud Firestore to store and retrieve data on the fly.
+* Start building  
+Use emulator or a physical device connected by USB
+```sh
+    $ flutter run
+```
 
+* Create APK
+```sh
+    $ flutter build apk --split-per-abi
+```
 
+* To make it personalized
+Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.  
+  
+After creating the project click on `+ Add app` and select platform, and follow along the steps provided.  
+  
+Documentation for [Cloud Firestore](https://firebase.google.com/docs/firestore)  
+  
+Documentation for [Firebase Authentication](https://firebase.google.com/docs/auth)
+
+## Note:  
+Make sure that device has an active internet connection.
+
+### Install for Android
+- [64 bit apk](https://www.github.com/raj-vora/flash-chat-flutter/blob/master/apks/flash-chat-arm64.apk?raw=true)
+- [32 bit apk](https://www.github.com/raj-vora/flash-chat-flutter/blob/master/apks/flash-chat-armeabi.apk?raw=true)
 
 >This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
