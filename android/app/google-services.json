@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652125433563",
+    "firebase_url": "https://flash-chat-raj.firebaseio.com",
+    "project_id": "flash-chat-raj",
+    "storage_bucket": "flash-chat-raj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652125433563:android:7fc26622a71d40ed2fe6fe",
+        "android_client_info": {
+          "package_name": "co.rajvora.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652125433563-qo3thvtoimn0qcgk4954gh8qsk1bj23k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmlUrml7hda7Pu4ymQt4Ig5mEDgGxjtYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652125433563-qo3thvtoimn0qcgk4954gh8qsk1bj23k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
